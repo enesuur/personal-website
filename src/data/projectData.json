@@ -1,0 +1,75 @@
+[
+  {
+    "title": "Dental Clinic Website",
+    "description": "This project features a robust dental clinic website built with a clean architecture using Next.js and TypeScript. The site is designed with HTML and CSS, offering a modern, responsive layout and seamless user experience. The architecture focuses on performance and maintainability, ensuring the site is both scalable and easy to manage. The website effectively presents the clinic's services with clear navigation and a user-friendly interface.",
+    "imgPath": "/assets/img/loremDental.png",
+    "alt": "Dental Clinic Website Image",
+    "githubUrl": "#",
+    "demoUrl": "#",
+    "cardType": true
+  },
+  {
+    "title": "Lorem Software",
+    "description": "This project features a professional software company website named Lorem Software. Built using Next.js, TypeScript, HTML, CSS, and Redux, the site combines a sleek design with a robust architecture. The website showcases the company's products and services with an intuitive, responsive layout, ensuring a seamless user experience. With its clean design and powerful functionality, the website effectively represents Lorem Software's online presence and supports the company's business goals.",
+    "imgPath": "/assets/img/loremSoftware.png",
+    "alt": "Lorem Software Image",
+    "githubUrl": "#",
+    "demoUrl": "#",
+    "cardType": false
+  },
+  {
+    "title": "Cubic Sphere",
+    "description": "Cubic Sphere is an open-source event-driven social media web application designed to facilitate social interactions by offering event and location-based matching. This platform enables users to connect with others through shared interests and events, fostering meaningful social connections. The tech stack used in this project includes React.js, Vite.js, HTML, CSS, and JavaScript for the frontend, and Express.js with MongoDB for the backend, ensuring a robust and scalable architecture.",
+    "imgPath": "/assets/img/cubicSphere.png",
+    "alt": "Cubic Sphere Project Image",
+    "githubUrl": "#",
+    "demoUrl": "#",
+    "cardType": true
+  },
+  {
+    "title": "BlokSeçim",
+    "description": "This project aims to create an online platform that integrates decentralized blockchain technology to centralize information on government and company decisions. It features a blockchain-based voting system to enhance transparency and public participation. The goal is to democratize decision-making by offering a reliable and user-friendly platform for increased community engagement.",
+    "imgPath": "/assets/img/blokSecim.png",
+    "alt": "BlokSeçim Project Image",
+    "githubUrl": "#",
+    "demoUrl": "#",
+    "cardType": false
+  },
+  {
+    "title": "Olympic Sailing Simulator",
+    "description": "The game simulates Olympic-style sailing competitions where players navigate a predetermined route, collecting buoys in a specific order to score points based on sailing time. Realistic wave and wind mechanics, along with dynamic water surface interactions and a visual shader, enhance gameplay realism. Players must follow Olympic sailing rules, including adhering to the course and crossing the finish line, with the goal of achieving the shortest time for top rankings.",
+    "imgPath": "/assets/img/sailing.png",
+    "alt": "Olympic Sailing Simulator Image",
+    "githubUrl": "#",
+    "demoUrl": "#",
+    "cardType": true
+  },
+  {
+    "title": "Podia Clone",
+    "description": "The Podia Clone project has advanced my skills in HTML, CSS, and React.js to a higher level. Through building a user interface with React.js, I've gained practical experience in creating dynamic and responsive web applications. This project has deepened my understanding of frontend development and enhanced my ability to design engaging interfaces. Overall, it has been a valuable learning experience that has strengthened my frontend skills significantly.",
+    "imgPath": "/assets/img/xodia.png",
+    "alt": "Podia Clone Project Image",
+    "githubUrl": "#",
+    "demoUrl": "#",
+    "cardType": false
+  },
+  {
+    "title": "Stroke Detection Project",
+    "description": "The Stroke Detection project utilizes various machine learning algorithms to predict whether individuals have experienced a stroke based on parameters such as age, gender, and occupation. By leveraging the capabilities of the ggplot library, the project provides visualizations to enhance data analysis and interpretation. Through the integration of machine learning models and visualization techniques, the project aims to improve stroke detection accuracy and facilitate informed decision-making in healthcare settings.",
+    "imgPath": "/assets/img/strokePrediction.png",
+    "alt": "Stroke Detection Project Image",
+    "githubUrl": "#",
+    "demoUrl": "#",
+    "cardType": true
+  },
+
+  {
+    "title": "Interactive Code Editor",
+    "description": "The Interactive Code Editor project allows users to write HTML, CSS, and JavaScript code directly on the website interface.",
+    "imgPath": "/assets/img/interactiveCode.png",
+    "alt": "Interactive Code Editor Image",
+    "githubUrl": "#",
+    "demoUrl": "#",
+    "cardType": false
+  }
+]

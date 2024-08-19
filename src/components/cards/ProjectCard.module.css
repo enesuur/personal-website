@@ -1,0 +1,127 @@
+/* ProjectCard.module.css */
+
+.projectCardContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  gap: 32px;
+  color: var(--primary-font-color);
+  box-shadow: var(--box-shadow);
+}
+
+.projectCardContainer.cardTypeFalse {
+  background-color: var(--secondary-color);
+}
+
+.projectCardContainer figure {
+  flex-basis: 50%;
+}
+
+.projectCardContainer figure img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.projectCardContainer article {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 16px;
+}
+
+.projectCardContainer article h2 {
+  font-size: var(--font-size-lg);
+}
+
+.projectCardContainer article .projectDescription {
+  margin: 1rem 0;
+}
+
+.projectCardContainer article .projectCardLinks {
+  display: flex;
+  gap: 16px;
+  margin-top: auto;
+}
+
+.projectCardContainer article .projectCardLinks a {
+  padding: 4px;
+  border-radius: 4px;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.projectCardContainer article .projectCardLinks a:hover {
+  box-shadow: var(--primary-font-color) -1px 1px,
+    var(--primary-font-color) -2px 2px, var(--primary-font-color) -3px 3px,
+    var(--primary-font-color) -4px 4px, var(--primary-font-color) -5px 5px;
+}
+
+.projectCardContainer article .projectCardLinks svg {
+  width: 24px;
+  height: 24px;
+}
+
+@media (min-width: 1200px) {
+  .projectCardContainer figure img {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .projectCardContainer {
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .projectCardContainer {
+    background-color: var(--background-color);
+    box-shadow: none;
+  }
+  .projectCardContainer.cardTypeFalse {
+    background-color: var(--background-color);
+  }
+  .projectCardContainer figure img {
+    object-fit: cover;
+    border-radius: 4px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+  .projectCardContainer {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .projectCardContainer article,
+  .projectCardContainer figure {
+    flex-basis: 100%;
+  }
+
+  .projectCardContainer figure img {
+    object-fit: cover;
+    border-radius: 4px 4px 0 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .projectCardContainer {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .projectCardContainer article {
+    flex-basis: auto;
+  }
+
+  .projectCardContainer figure {
+    flex-basis: auto;
+    width: 100%;
+  }
+
+  .projectCardContainer figure img {
+    border-radius: 4px 4px 0 0;
+  }
+}

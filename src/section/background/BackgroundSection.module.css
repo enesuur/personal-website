@@ -1,0 +1,115 @@
+/* Background.module.css */
+
+.timelineContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-size-base);
+  color: var(--primary-font-color);
+  position: relative;
+}
+
+.timelineContainer .timelineCard {
+  display: flex;
+  flex-basis: 50%;
+  align-items: center;
+}
+
+.timelineContainer .timelineCard:nth-child(even) {
+  justify-content: flex-end;
+}
+
+.timelineContainer .timelineCard article {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+  padding: 24px 16px;
+  position: relative;
+  box-shadow: var(--box-shadow);
+}
+
+.timelineContainer .timelineCard article .timelineInfo {
+  margin-bottom: 1.5rem;
+}
+
+.timelineContainer .timelineCard article .timelineInfo h2 {
+  font-size: var(--font-size-md);
+  margin-bottom: 4px;
+}
+
+.timelineContainer .timelineCard article .timelineInfo p:nth-child(2) {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.timelineContainer .timelineCard article .timelineInfo .cardContent {
+  margin: 8px 0;
+}
+
+.timelineContainer .timelineCard .timelineDateRight {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: calc(50% + 32px);
+  font-size: var(--font-size-md);
+}
+
+.timelineContainer .timelineCard .timelineDateLeft {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: calc(50% + 32px);
+  font-size: 1.25rem;
+  font-size: var(--font-size-md);
+}
+
+.leftCard {
+  background-color: var(--primary-color);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.rightCard {
+  background-color: var(--secondary-color);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.timelineBorder {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  background-color: var(--primary-font-color);
+  width: 1.75px;
+}
+
+.timelineBorder svg {
+  position: absolute;
+  left: 12px;
+  top: -12px;
+  transform: translateX(-50%);
+  color: var(--primary-font-color);
+}
+
+@media (max-width: 768px) {
+  .timelineContainer {
+    row-gap: 32px;
+  }
+  .timelineContainer .timelineCard article {
+    flex-basis: 100%;
+  }
+  .timelineBorder {
+    display: none;
+  }
+  .timelineContainer .timelineCard .timelineDateRight {
+    display: none;
+  }
+
+  .timelineContainer .timelineCard .timelineDateLeft {
+    display: none;
+  }
+}

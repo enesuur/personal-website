@@ -1,0 +1,21 @@
+/* ContactSection.module.css */
+
+.contactContainer {
+  color: var(--primary-font-color);
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  padding: 12px 16px;
+  line-height: 1.75;
+}
+
+.contactContainer ul li {
+  display: flex;
+  column-gap: 4px;
+  align-items: center;
+}
+
+.contactContainer ul li a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}

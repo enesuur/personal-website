@@ -1,0 +1,7 @@
+/* ProjectSection.module.css */
+
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+}

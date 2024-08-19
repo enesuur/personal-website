@@ -1,0 +1,22 @@
+/* SkillSection.module.css */
+
+.skillsContainer {
+  color: var(--primary-font-color);
+  padding: 12px 16px;
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  line-height: 1.75;
+  box-shadow: var(--box-shadow);
+}
+
+.skillsContainer h2 {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  font-size: var(--font-size-md);
+  margin: 8px 0;
+}
+
+.skillsContainer p {
+  font-size: var(--font-size-base);
+}

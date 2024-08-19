@@ -1,0 +1,30 @@
+/* NotFound.module.css */
+
+.notFoundSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFoundContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-font-color);
+  row-gap: 24px;
+  max-width: 786px;
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  background-color: var(--secondary-color);
+  padding: 32px;
+}
+
+.notFoundContainer h1 {
+  font-size: var(--font-size-lg);
+  text-align: center;
+}
+
+.notFoundContainer p {
+  text-align: center;
+}
