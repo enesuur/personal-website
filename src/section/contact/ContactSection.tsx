@@ -9,7 +9,7 @@ const ContactSection: React.FC = () => {
         <h2>Thanks for visiting my website, visitor.</h2>
         <p>
           If you have any questions, suggestions, or just want to say hello,
-          feel free to reach out. I'm always open to new connections and
+          feel free to reach out. I am always open to new connections and
           collaborations!
         </p>
         <p>For other projects, you can take a look at my GitHub account. ✔️</p>
