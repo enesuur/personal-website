@@ -29,7 +29,7 @@ html {
   --secondary-color: #005eff21;
   --primary-font-color: #fdfdfd;
   --background-color: #171717;
-  --orange:#FFA500;
+  --orange: #ffa500;
   --box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   --font-size-base: 16px;
@@ -205,8 +205,8 @@ textarea {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
   .container {
-    max-width: 1400px;
+    max-width: 1600px;
   }
 }
