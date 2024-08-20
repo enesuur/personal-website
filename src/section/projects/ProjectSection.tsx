@@ -1,14 +1,12 @@
-import React, { RefObject } from 'react';
-import styles from './ProjectSection.module.css';
-import ProjectCard from '@/components/cards/ProjectCard';
-import projectData from '@/data/projectData.json';
-
-
+import React, { RefObject } from "react";
+import styles from "./ProjectSection.module.css";
+import ProjectCard from "@/components/cards/ProjectCard";
+import projectData from "@/data/projectData.json";
 
 const ProjectSection: React.FC = () => {
   return (
-    <section id="projects" className='container'>
-      <h1 className='sectionTextHeader'>_projects</h1>
+    <section id="projects" className="container">
+      <h1 className="sectionTextHeader">_projects</h1>
       <div className={styles.projectsContainer}>
         {projectData.map((project, index) => (
           <ProjectCard
@@ -25,6 +23,6 @@ const ProjectSection: React.FC = () => {
       </div>
     </section>
   );
-}
+};
 
 export default ProjectSection;
