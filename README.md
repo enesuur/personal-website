@@ -1,4 +1,4 @@
-# Personal Developer Website Next.js
+# Developer Website with Next.js
 
 Hi there,
 
