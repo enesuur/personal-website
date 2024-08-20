@@ -4,10 +4,6 @@ Hi there,
 
 I've decided to share the source code for my personal website with the public. If you'd like to use it for your own personal website, feel free—it's completely free to use!
 
-## Screenshots
-
-![Home Page Of the Application](https://i.hizliresim.com/khq9bqg.png)
-
 ## Demo
 [Demo Link](https://enesugur.cloud/)
 
