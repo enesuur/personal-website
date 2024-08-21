@@ -70,7 +70,7 @@ const Background: React.FC = () => {
               </p>
             </div>
           </article>
-          <div className={styles.timelineDateLeft}>2022-Present</div>
+          <div className={styles.timelineDateLeft}>2023-Present</div>
         </div>
 
         <div className={styles.timelineCard}>
